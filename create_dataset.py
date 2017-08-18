@@ -40,8 +40,7 @@ class Record:
 
 
 if __name__ == "__main__":
-    record = Record(5, 40000, 2)
-    record.record_positive_audio(2)
-    record.record_negative_audio(2)
-
+    record = Record(5, 40000, 1)
+    #record.record_positive_audio(2)
+    # record.record_negative_audio(2)
 
